@@ -1,8 +1,8 @@
-# Shimmer Auto<!--
+# Shimmer Auto
 
 This README describes the package. If you publish this package to pub.dev,
 
-[![pub package](https://img.shields.io/pub/v/shimmer_auto.svg)](https://pub.dev/packages/shimmer_auto)this README's contents appear on the landing page for your package.
+[![pub package](https://img.shields.io/pub/v/shimmer_auto.svg)](https://pub.dev/packages/shimmer_auto) this README's contents appear on the landing page for your package.
 
 
 
