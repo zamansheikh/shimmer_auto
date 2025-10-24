@@ -1,80 +1,48 @@
 # Shimmer Auto
 
-This README describes the package. If you publish this package to pub.dev,
+[![pub package](https://img.shields.io/pub/v/shimmer_auto.svg)](https://pub.dev/packages/shimmer_auto)
 
-[![pub package](https://img.shields.io/pub/v/shimmer_auto.svg)](https://pub.dev/packages/shimmer_auto) this README's contents appear on the landing page for your package.
+An intelligent shimmer effect package for Flutter that automatically detects widget appearance and generates skeleton loading states. No manual configuration needed!
 
 
 
-An intelligent shimmer effect package for Flutter that automatically detects widget appearance and generates skeleton loading states. No manual configuration needed!For information about how to write a good package README, see the guide for
-
-[writing package pages](https://dart.dev/tools/pub/writing-package-pages).
 
 ## ✨ Features
 
-For general information about developing packages, see the Dart guide for
-
-- 🎯 **Smart Auto-Detection**: Automatically detects widget colors, sizes, and shapes[creating packages](https://dart.dev/guides/libraries/create-packages)
-
-- 🎨 **Theme-Aware**: Adapts to light and dark themes automaticallyand the Flutter guide for
-
-- 🔧 **Easy to Use**: Simple extension methods - just add `.withAutoShimmer(loading: isLoading)`[developing packages and plugins](https://flutter.dev/to/develop-packages).
-
-- 🎭 **Multiple Directions**: Left-to-right, right-to-left, top-to-bottom, bottom-to-top-->
-
+- 🎯 **Smart Auto-Detection**: Automatically detects widget colors, sizes, and shapes
+- 🎨 **Theme-Aware**: Adapts to light and dark themes automatically
+- 🔧 **Easy to Use**: Simple extension methods - just add `.withAutoShimmer(loading: isLoading)`
+- 🎭 **Multiple Directions**: Left-to-right, right-to-left, top-to-bottom, bottom-to-top
 - ⚡ **Performance Optimized**: Efficient animations with minimal overhead
+- 🎪 **Versatile**: Works with any widget - Container, SizedBox, Text, Image, Card, ListTile, etc.
+- 🎛️ **Customizable**: Full control over colors, duration, and animation style when needed
 
-- 🎪 **Versatile**: Works with any widget - Container, SizedBox, Text, Image, Card, ListTile, etc.TODO: Put a short description of the package here that helps potential users
+## 📦 Installation
 
-- 🎛️ **Customizable**: Full control over colors, duration, and animation style when neededknow whether this package might be useful for them.
+Add this to your package's `pubspec.yaml` file:
 
-
-
-## 📦 Installation## Features
-
-
-
-Add this to your package's `pubspec.yaml` file:TODO: List what your package can do. Maybe include images, gifs, or videos.
-
-
-
-```yaml## Getting started
-
+```yaml
 dependencies:
-
-  shimmer_auto: ^0.0.1TODO: List prerequisites and provide or point to information on how to
-
-```start using the package.
-
-
-
-Then run:## Usage
-
-
-
-```bashTODO: Include short and useful examples for package users. Add longer examples
-
-flutter pub getto `/example` folder.
-
+  shimmer_auto: ^0.0.1
 ```
 
-```dart
+Then run:
 
-## 🚀 Quick Startconst like = 'sample';
-
+```bash
+flutter pub get
 ```
+
+## 🚀 Getting Started
+
+To start using Shimmer Auto, import the package and apply the shimmer effect to your widgets during loading states. This package requires Flutter SDK and works seamlessly with Material or Cupertino themes.
+
+## Usage
 
 Import the package:
 
-## Additional information
-
 ```dart
-
-import 'package:shimmer_auto/shimmer_auto.dart';TODO: Tell users more about the package: where to find more information, how to
-
-```contribute to the package, how to file issues, what response they can expect
-
-from the package authors, and more.
+import 'package:shimmer_auto/shimmer_auto.dart';
+```
 
 ### Basic Usage
 
@@ -381,9 +349,11 @@ In **dark mode**: Uses dark grey colors
 
 Please file issues, bugs, or feature requests in our [issue tracker](https://github.com/yourusername/shimmer_auto/issues).
 
+For more information, check the [example](example) folder in the repository.
+
 ## 🤝 Contributing
 
-Contributions are welcome! Please feel free to submit a Pull Request.
+Contributions are welcome! Please feel free to submit a Pull Request. We aim to review and merge contributions within a week.
 
 ## 📄 License
 
